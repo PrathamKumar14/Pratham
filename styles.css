@@ -59,6 +59,7 @@ h3 {
 
 .toggler {
   position: absolute;
+  top: 0;
   opacity: 0;
 }
 
