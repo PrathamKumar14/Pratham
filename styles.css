@@ -89,9 +89,8 @@ body.dark {
   width: 60px;
   border-radius: 50%;
   position: fixed;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+  box-sizing: border-box;
+  border: 2px solid white;
   bottom: 10px;
   right: 10px;
   font-family: "Poppins", sans-serif;
@@ -107,28 +106,26 @@ body.dark {
 .fa {
   font-size: 36px;
   color: black;
-  text-shadow: 0 0 20px white, 0 0 40px white;
+  text-shadow: 0 0 10px white;
 }
 
 .sub-btns {
   height: 60px;
   width: 60px;
   position: fixed;
-  /* top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
   bottom: 10px;
   right: 10px;
 }
 
 .sub-btns > div {
-  /*   background: #6985c4;   */
   box-sizing: border-box;
   background: #e11d74;
   height: 60px;
   width: 60px;
   border-radius: 50%;
   position: relative;
+  box-sizing: border-box;
+  border: 2px solid white;
   transition: 1s;
   display: flex;
   align-items: center;
