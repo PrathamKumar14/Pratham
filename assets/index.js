@@ -1,3 +1,13 @@
+// Dark and light theme
+
+const toggler = document.getElementById("t");
+
+toggler.addEventListener("change", () => {
+  document.body.classList.toggle("dark");
+});
+
+// Footer
+
 var isPop = false;
 
 function animateButton() {
