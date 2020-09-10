@@ -7,12 +7,15 @@ body {
   padding: 0;
   background: #060608;
   color: white;
-  overflow: hidden;
   transition: 0.2s linear;
 }
 
 h1 {
   font-family: "poppins";
+}
+
+h3 {
+  font-family: "courier";
 }
 
 /* Dark / light Theme */
@@ -63,6 +66,13 @@ body.dark {
   color: black;
 }
 
+.cc {
+  margin: 0 50px 0 50px;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: justify;
+}
+
 /* FOOTER */
 
 .main-btn {
@@ -72,7 +82,7 @@ body.dark {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  position: absolute;
+  position: fixed;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
@@ -97,7 +107,7 @@ body.dark {
 .sub-btns {
   height: 60px;
   width: 60px;
-  position: absolute;
+  position: fixed;
   /* top: 50%;
   left: 50%;
   transform: translate(-50%, -50%); */
