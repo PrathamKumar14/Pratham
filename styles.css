@@ -10,6 +10,11 @@ body {
   transition: 0.2s linear;
 }
 
+#cursor,
+#frontend {
+  color: #e11d74;
+}
+
 h1 {
   font-family: "poppins";
 }
@@ -139,4 +144,17 @@ body.dark {
 
 .btn4 {
   bottom: 180px;
+}
+
+/* Responsive  */
+
+@media (max-width: 640px) {
+  .cc {
+    margin: 10px;
+  }
+
+  .pratham {
+    font-size: 24px;
+    text-align: left;
+  }
 }
