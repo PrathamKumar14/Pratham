@@ -6,6 +6,34 @@ toggler.addEventListener("change", () => {
   document.body.classList.toggle("dark");
 });
 
+// Typing effect
+
+var i = 0;
+var txt = "Hey there! I am Pratham a Front-end Developer.";
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("typing").innerHTML += txt.charAt(i);
+    i++;
+
+    setTimeout(typeWriter, 100);
+  }
+}
+
+setInterval(() => {
+  setTimeout(function () {
+    if (cursor) {
+      document.getElementById("cursor").innerHTML = "_";
+      document.getElementById("cursor").style.opacity = 0;
+      cursor = false;
+    } else {
+      document.getElementById("cursor").innerHTML = "_";
+      document.getElementById("cursor").style.opacity = 1;
+      cursor = true;
+    }
+  }, 4600);
+}, 400);
+
 // Footer
 
 var isPop = false;
