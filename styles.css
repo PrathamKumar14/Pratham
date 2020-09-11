@@ -72,11 +72,22 @@ body.dark {
   color: black;
 }
 
-.cc {
-  margin: 0 40px 0 40px;
+.wrapper {
+  margin: 10px 40px 10px 40px;
+  max-width: 1500px;
+}
+
+.intro-img {
   box-sizing: border-box;
-  padding: 10px;
-  text-align: justify;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro {
+  height: auto;
+  display: flex;
+  align-items: center;
 }
 
 /* FOOTER */
@@ -147,12 +158,16 @@ body.dark {
 /* Responsive  */
 
 @media (max-width: 640px) {
-  .cc {
-    margin: 10px;
+  .wrapper {
+    margin: 10px 40px 10px 40px;
   }
 
   .pratham {
     font-size: 24px;
     text-align: left;
+  }
+
+  .intro-img {
+    flex-direction: column;
   }
 }
