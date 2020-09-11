@@ -41,9 +41,8 @@ h3 {
   cursor: pointer;
 }
 
-.m,
-.s {
-  height: 20px;
+.sun-moon {
+  height: 26px;
 }
 
 .ball {
@@ -90,7 +89,7 @@ body.dark {
   border-radius: 50%;
   position: fixed;
   box-sizing: border-box;
-  border: 2px solid white;
+  border: 2px solid #440047;
   bottom: 10px;
   right: 10px;
   font-family: "Poppins", sans-serif;
@@ -125,7 +124,7 @@ body.dark {
   border-radius: 50%;
   position: relative;
   box-sizing: border-box;
-  border: 2px solid white;
+  border: 2px solid #440047;
   transition: 1s;
   display: flex;
   align-items: center;
