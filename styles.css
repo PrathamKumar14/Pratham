@@ -170,4 +170,12 @@ body.dark {
   .intro-img {
     flex-direction: column;
   }
+
+  .my-img {
+    text-align: center;
+  }
+
+  .avatar {
+    width: 85vw;
+  }
 }
