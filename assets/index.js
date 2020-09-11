@@ -4,6 +4,7 @@ const toggler = document.getElementById("t");
 
 toggler.addEventListener("change", () => {
   document.body.classList.toggle("dark");
+  document.getElementById("frontend").classList.toggle("stroke");
 });
 
 // Typing effect

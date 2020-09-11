@@ -5,14 +5,24 @@
 body {
   margin: 0;
   padding: 0;
-  background: #060608;
-  color: white;
+  background: white;
+  color: #060608;
   transition: 0.2s linear;
+}
+
+body.dark {
+  background: black;
+  color: white;
 }
 
 #cursor,
 #frontend {
   color: #e11d74;
+  -webkit-text-stroke: 2px black;
+}
+
+#frontend.stroke {
+  -webkit-text-stroke: 2px white;
 }
 
 h1 {
@@ -65,11 +75,6 @@ h3 {
 
 .toggler:checked + .label .ball {
   transform: translateX(28px);
-}
-
-body.dark {
-  background: white;
-  color: black;
 }
 
 .wrapper {
