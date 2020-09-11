@@ -42,7 +42,7 @@ h3 {
 }
 
 .sun-moon {
-  height: 26px;
+  height: 24px;
 }
 
 .ball {
@@ -59,6 +59,7 @@ h3 {
 .toggler {
   position: absolute;
   top: 0;
+  right: 0;
   opacity: 0;
 }
 
