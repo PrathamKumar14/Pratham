@@ -51,23 +51,23 @@ var isPop = false;
 
 function animateButton() {
   if (isPop == 0) {
-    document.getElementById("btn1").style.transform =
+    document.getElementById("btn1").style.webkitTransform =
       "translateY(-70px) rotate(1080deg)";
-    document.getElementById("btn2").style.transform =
+    document.getElementById("btn2").style.webkitTransform =
       "translateY(-140px) rotate(1080deg)";
-    document.getElementById("btn3").style.transform =
+    document.getElementById("btn3").style.webkitTransform =
       "translateY(-210px) rotate(1080deg)";
-    document.getElementById("btn4").style.transform =
+    document.getElementById("btn4").style.webkitTransform =
       "translateY(-280px) rotate(1080deg)";
 
     // document.getElementById("btn1").style.transform = "";
 
     isPop = true;
   } else {
-    document.getElementById("btn1").style.transform = "translateY(0)";
-    document.getElementById("btn2").style.transform = "translateY(0)";
-    document.getElementById("btn3").style.transform = "translateY(0)";
-    document.getElementById("btn4").style.transform = "translateY(0)";
+    document.getElementById("btn1").style.webkitTransform = "translateY(0)";
+    document.getElementById("btn2").style.webkitTransform = "translateY(0)";
+    document.getElementById("btn3").style.webkitTransform = "translateY(0)";
+    document.getElementById("btn4").style.webkitTransform = "translateY(0)";
 
     isPop = false;
   }
