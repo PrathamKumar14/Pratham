@@ -82,12 +82,22 @@ body.dark {
   margin: auto;
   display: flex;
   justify-content: space-around;
+  padding-top: 60px;
 }
 
 .intro {
   height: auto;
   display: flex;
   align-items: center;
+  width: 700px;
+}
+
+.pratham {
+  font-size: 50px;
+}
+
+#frontend {
+  font-size: 54px;
 }
 
 /* FOOTER */
@@ -162,20 +172,34 @@ body.dark {
     margin: 10px 40px 10px 40px;
   }
 
-  .pratham {
-    font-size: 24px;
-    text-align: left;
-  }
-
   .intro-img {
     flex-direction: column;
+    padding-top: 0;
+  }
+
+  .intro {
+    margin-bottom: 30px;
+    max-width: 700;
   }
 
   .my-img {
     text-align: center;
   }
 
-  .avatar {
+  .avatar,
+  .intro {
     width: 85vw;
+  }
+
+  .pratham {
+    font-size: 32px;
+  }
+
+  .intro {
+    text-align: center;
+  }
+
+  #frontend {
+    font-size: 44px;
   }
 }
