@@ -169,7 +169,8 @@ body.dark {
 
 @media (max-width: 792px) {
   .wrapper {
-    margin: 10px 40px 10px 40px;
+    /* margin: 10px 20px 10px 20px; */
+    margin: 0;
   }
 
   .intro-img {
@@ -179,7 +180,6 @@ body.dark {
 
   .intro {
     margin-bottom: 30px;
-    max-width: 700;
   }
 
   .my-img {
@@ -188,7 +188,7 @@ body.dark {
 
   .avatar,
   .intro {
-    width: 85vw;
+    width: 100%;
   }
 
   .pratham {
