@@ -13,25 +13,25 @@ toggler.addEventListener("change", () => {
 var i = 0;
 var txt = "Hey there! I am Pratham a Front-end Developer.";
 
-function typeWriter() {
-  if (i < txt.length) {
-    if (i < 10) {
-      document.getElementById("typing-ht").innerHTML += txt.charAt(i);
-      i++;
-    } else if (i >= 26 && i <= 34) {
-      document.getElementById("frontend").innerHTML += txt.charAt(i);
-      i++;
-    } else if (i >= 34 && i <= 46) {
-      document.getElementById("developer").innerHTML += txt.charAt(i);
-      i++;
-    } else {
-      document.getElementById("typing-wd").innerHTML += txt.charAt(i);
-      i++;
-    }
+// function typeWriter() {
+//   if (i < txt.length) {
+//     if (i < 10) {
+//       document.getElementById("typing-ht").innerHTML += txt.charAt(i);
+//       i++;
+//     } else if (i >= 26 && i <= 34) {
+//       document.getElementById("frontend").innerHTML += txt.charAt(i);
+//       i++;
+//     } else if (i >= 34 && i <= 46) {
+//       document.getElementById("developer").innerHTML += txt.charAt(i);
+//       i++;
+//     } else {
+//       document.getElementById("typing-wd").innerHTML += txt.charAt(i);
+//       i++;
+//     }
 
-    setTimeout(typeWriter, 100);
-  }
-}
+//     setTimeout(typeWriter, 100);
+//   }
+// }
 
 setInterval(() => {
   setTimeout(function () {
@@ -44,7 +44,7 @@ setInterval(() => {
       document.getElementById("cursor").style.opacity = 1;
       cursor = true;
     }
-  }, 4600);
+  }, 100);
 }, 400);
 
 // Footer

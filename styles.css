@@ -199,6 +199,10 @@ h3 {
     margin: 0;
   }
 
+  .intro-section {
+    padding: 20px 0 20px 0;
+  }
+
   .intro-img {
     flex-direction: column;
     padding-top: 0;
