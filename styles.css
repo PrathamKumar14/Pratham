@@ -15,13 +15,30 @@ body.dark {
   color: white;
 }
 
+/* Customize scroll bar */
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px gray;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #e11d74;
+  border-radius: 10px;
+}
+
 #cursor,
 #frontend {
   color: #e11d74;
   -webkit-text-stroke: 2px black;
 }
 
-#frontend.stroke {
+#frontend.stroke,
+#cursor.stroke {
   -webkit-text-stroke: 2px white;
 }
 
@@ -80,6 +97,10 @@ h3 {
 .wrapper {
   margin: 10px 40px 10px 40px;
   max-width: 1500px;
+}
+
+.intro-section {
+  padding: 50px 0 110px 0;
 }
 
 .intro-img {
