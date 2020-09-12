@@ -191,6 +191,37 @@ h3 {
   bottom: 180px;
 }
 
+.touch {
+  height: 50px !important;
+  width: 50px !important;
+  font-family: "poppins";
+}
+
+.btn5 {
+  bottom: 240px;
+  left: 5px;
+}
+
+.btn6 {
+  bottom: 290px;
+  left: 5px;
+}
+
+.btn7 {
+  bottom: 340px;
+  left: 5px;
+}
+
+.btn8 {
+  bottom: 390px;
+  left: 5px;
+}
+
+.btn9 {
+  bottom: 440px;
+  left: 5px;
+}
+
 /* Responsive  */
 
 @media (max-width: 792px) {

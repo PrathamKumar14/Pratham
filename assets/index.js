@@ -61,6 +61,16 @@ function animateButton() {
       "translateX(-186px) rotate(1080deg)";
     document.getElementById("btn4").style.transform =
       "translateX(-248px) rotate(1080deg)";
+    document.getElementById("btn5").style.transform =
+      "translateY(-52px) rotate(1080deg)";
+    document.getElementById("btn6").style.transform =
+      "translateY(-104px) rotate(1080deg)";
+    document.getElementById("btn7").style.transform =
+      "translateY(-156px) rotate(1080deg)";
+    document.getElementById("btn8").style.transform =
+      "translateY(-208px) rotate(1080deg)";
+    document.getElementById("btn9").style.transform =
+      "translateY(-260px) rotate(1080deg)";
 
     // document.getElementById("btn1").style.transform = "";
 
@@ -70,6 +80,11 @@ function animateButton() {
     document.getElementById("btn2").style.transform = "translateX(0)";
     document.getElementById("btn3").style.transform = "translateX(0)";
     document.getElementById("btn4").style.transform = "translateX(0)";
+    document.getElementById("btn5").style.transform = "translateY(0)";
+    document.getElementById("btn6").style.transform = "translateY(0)";
+    document.getElementById("btn7").style.transform = "translateY(0)";
+    document.getElementById("btn8").style.transform = "translateY(0)";
+    document.getElementById("btn9").style.transform = "translateY(0)";
 
     isPop = false;
   }
