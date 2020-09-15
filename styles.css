@@ -286,7 +286,7 @@ h3 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   z-index: 10;
-  transition: 1s;
+  transition: 0.7s;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -316,7 +316,7 @@ h3 {
   position: relative;
   box-sizing: border-box;
   border: 2px solid #440047;
-  transition: 1s;
+  transition: 0.7s;
   display: flex;
   align-items: center;
   justify-content: center;
