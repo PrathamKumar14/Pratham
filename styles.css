@@ -19,7 +19,7 @@ body.dark {
 /* Customize scroll bar */
 
 ::-webkit-scrollbar {
-  width: 20px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -102,7 +102,7 @@ h3 {
 }
 
 .intro-section {
-  padding: 50px 0 110px 0;
+  padding: 50px 0 50px 0;
 }
 
 .intro-img {
@@ -140,6 +140,36 @@ h3 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 2px black;
+}
+
+/* About me */
+
+.about-me-container {
+  display: flex;
+}
+
+.my-pic-AM {
+  height: 300px;
+  margin-right: 70px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 207, 255, 1), 0 0 40px rgb(238, 255, 0),
+    0 0 60px rgb(255, 0, 247);
+  /* box-shadow: 4px 2px 2px rgba(0, 207, 255, 1), 8px 4px 4px rgb(238, 255, 0),
+    12px 6px 6px rgb(255, 0, 247); */
+  border: 4px solid #e11d74;
+  box-sizing: border-box;
+}
+
+.heading {
+  font-size: 44px;
+  color: #e11d74;
+}
+
+.about-me-text {
+  font-size: 20px;
+  line-height: 32px;
+  font-family: "courier prime";
+  font-weight: bold;
 }
 
 /* Resume button */
@@ -384,8 +414,8 @@ h3 {
 
 @media (max-width: 792px) {
   .wrapper {
-    /* margin: 10px 20px 10px 20px; */
-    margin: 0;
+    margin: 10px 20px 10px 20px;
+    /* margin: 0; */
   }
 
   .modal {
@@ -420,7 +450,7 @@ h3 {
 
   .pratham {
     margin: auto;
-    font-size: 32px;
+    font-size: 42px;
   }
 
   .intro {
@@ -429,5 +459,28 @@ h3 {
 
   #frontend {
     font-size: 44px;
+  }
+
+  .about-me-container {
+    flex-direction: column;
+  }
+
+  .my-pic-AM {
+    margin: 0;
+  }
+
+  .img-wrapper {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro-section {
+    height: 100vh;
+    padding-bottom: 0;
+  }
+
+  .heading {
+    margin-top: 0;
   }
 }
