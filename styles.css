@@ -373,6 +373,14 @@ h3 {
     margin: 0;
   }
 
+  .modal {
+    padding-top: 80px;
+  }
+
+  .modal-content {
+    width: 96%;
+  }
+
   .intro-section {
     padding: 100px 0 20px 0;
   }
