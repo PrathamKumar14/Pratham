@@ -8,6 +8,7 @@ body {
   background: white;
   color: black;
   transition: 0.2s linear;
+  overflow-x: hidden;
 }
 
 body.dark {
@@ -38,8 +39,9 @@ body.dark {
 }
 
 #frontend.stroke,
-#cursor.stroke {
-  -webkit-text-stroke: 2px white;
+#cursor.stroke,
+.my-name.stroke {
+  -webkit-text-stroke: 1px white;
 }
 
 h1 {
@@ -125,6 +127,19 @@ h3 {
 
 #frontend {
   font-size: 54px;
+}
+
+.my-name {
+  background: -webkit-linear-gradient(
+    left,
+    rgba(0, 207, 255, 1),
+    rgb(238, 255, 0),
+    rgb(255, 0, 247),
+    rgba(0, 207, 255, 1)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px black;
 }
 
 /* Resume button */

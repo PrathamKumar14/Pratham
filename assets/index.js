@@ -6,6 +6,7 @@ toggler.addEventListener("change", () => {
   document.body.classList.toggle("dark");
   document.getElementById("frontend").classList.toggle("stroke");
   document.getElementById("cursor").classList.toggle("stroke");
+  document.getElementsByClassName("my-name")[0].classList.toggle("stroke");
   document.getElementById("resume-btn").classList.toggle("btn-bg");
 });
 
