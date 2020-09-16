@@ -8,6 +8,7 @@ toggler.addEventListener("change", () => {
   document.getElementById("cursor").classList.toggle("stroke");
   document.getElementsByClassName("my-name")[0].classList.toggle("stroke");
   document.getElementById("resume-btn").classList.toggle("btn-bg");
+  document.getElementById("text-wrapper").classList.toggle("au-text-bg");
 });
 
 // Typing effect

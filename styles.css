@@ -150,14 +150,22 @@ h3 {
 
 .my-pic-AM {
   height: 300px;
-  margin-right: 70px;
+  margin-right: 40px;
   border-radius: 20px;
-  box-shadow: 0 0 20px rgba(0, 207, 255, 1), 0 0 40px rgb(238, 255, 0),
-    0 0 60px rgb(255, 0, 247);
-  /* box-shadow: 4px 2px 2px rgba(0, 207, 255, 1), 8px 4px 4px rgb(238, 255, 0),
-    12px 6px 6px rgb(255, 0, 247); */
+  /* box-shadow: 0 0 20px rgba(0, 207, 255, 1), 0 0 40px rgb(238, 255, 0),
+    0 0 60px rgb(255, 0, 247); */
+  /* box-shadow: -4px -2px 2px rgba(0, 207, 255, 1), -8px -4px 4px rgb(238, 255, 0),
+    -12px -6px 6px rgb(255, 0, 247); */
+  box-shadow: 0 0 2px 2px rgba(0, 207, 255, 1), 0 0 4px 4px rgb(238, 255, 0),
+    0 0 6px 6px rgb(255, 0, 247);
   border: 4px solid #e11d74;
   box-sizing: border-box;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.my-pic-AM:hover {
+  box-shadow: none;
 }
 
 .heading {
@@ -165,11 +173,26 @@ h3 {
   color: #e11d74;
 }
 
+.text-wrapper {
+  border-radius: 20px;
+  box-shadow: 0 0 2px 2px rgba(0, 207, 255, 1), 0 0 4px 4px rgb(238, 255, 0),
+    0 0 6px 6px rgb(255, 0, 247);
+  padding: 10px;
+  border: 4px solid #e11d74;
+  box-sizing: border-box;
+  background-color: #ffeffb;
+}
+
+.text-wrapper.au-text-bg {
+  background-color: #130009;
+}
+
 .about-me-text {
   font-size: 20px;
   line-height: 32px;
   font-family: "courier prime";
   font-weight: bold;
+  margin-top: 0;
 }
 
 /* Resume button */
@@ -467,6 +490,7 @@ h3 {
 
   .my-pic-AM {
     margin: 0;
+    margin-bottom: 20px;
   }
 
   .img-wrapper {
