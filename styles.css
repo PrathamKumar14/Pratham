@@ -178,6 +178,7 @@ h3 {
   font-size: 44px;
   color: #e11d74;
   text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .text-wrapper {
@@ -200,6 +201,39 @@ h3 {
   font-family: "courier prime";
   font-weight: bold;
   margin-top: 0;
+}
+
+/* Projects Section */
+
+.projects {
+  margin-top: 100px;
+  font-size: 44px;
+  color: #e11d74;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.project-container {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-container > div {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 14px rgb(110, 110, 110);
+  transition: 0.5s;
+}
+
+.project-container > div:hover {
+  box-shadow: none;
 }
 
 /* Resume button */
@@ -498,6 +532,10 @@ h3 {
   .my-pic-AM {
     margin: 0;
     margin-bottom: 20px;
+  }
+
+  .projects {
+    margin-top: 50px;
   }
 }
 
