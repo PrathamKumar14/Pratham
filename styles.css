@@ -148,6 +148,12 @@ h3 {
   display: flex;
 }
 
+.img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .my-pic-AM {
   height: 300px;
   margin-right: 40px;
@@ -171,6 +177,7 @@ h3 {
 .heading {
   font-size: 44px;
   color: #e11d74;
+  text-transform: uppercase;
 }
 
 .text-wrapper {
@@ -491,10 +498,6 @@ h3 {
   .my-pic-AM {
     margin: 0;
     margin-bottom: 20px;
-  }
-
-  .img-wrapper {
-    text-align: center;
   }
 }
 
