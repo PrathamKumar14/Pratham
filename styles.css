@@ -222,17 +222,19 @@ h3 {
   justify-content: center;
 }
 
-.project-container > div {
-  height: 300px;
+.project-container > div > img {
   width: 300px;
-  background-color: red;
+  border-radius: 20px;
+  box-shadow: 4px 4px 10px rgb(85, 85, 85);
   margin: 20px;
   border-radius: 20px;
   box-shadow: 6px 6px 14px rgb(85, 85, 85);
   transition: 0.5s;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.project-container > div:hover {
+.project-container > div > img:hover {
   box-shadow: none;
 }
 
