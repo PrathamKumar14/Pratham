@@ -5,15 +5,15 @@
 body {
   margin: 0;
   padding: 0;
-  background: white;
-  color: black;
+  background: black;
+  color: white;
   transition: 0.2s linear;
   overflow-x: hidden;
 }
 
 body.dark {
-  background: black;
-  color: white;
+  background: white;
+  color: black;
 }
 
 /* Customize scroll bar */
@@ -35,13 +35,13 @@ body.dark {
 #cursor,
 #frontend {
   color: #e11d74;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 1px white;
 }
 
 #frontend.stroke,
 #cursor.stroke,
 .my-name.stroke {
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 2px black;
 }
 
 h1 {
@@ -139,7 +139,7 @@ h3 {
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 1px white;
 }
 
 /* About me */
@@ -188,11 +188,11 @@ h3 {
   padding: 10px;
   border: 4px solid #e11d74;
   box-sizing: border-box;
-  background-color: #ffeffb;
+  background-color: #130009;
 }
 
 .text-wrapper.au-text-bg {
-  background-color: #130009;
+  background-color: #ffeffb;
 }
 
 .about-me-text {
@@ -270,13 +270,13 @@ h3 {
   font-family: "Courier prime", Courier, monospace;
   padding: 4px 16px;
   text-decoration: none;
-  background-color: white;
+  background-color: black;
   box-sizing: border-box;
   border-radius: 20px;
 }
 
 .resume-btn.btn-bg {
-  background-color: black;
+  background-color: white;
 }
 
 /* Modal view of Resume */
