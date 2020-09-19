@@ -226,23 +226,42 @@ h3 {
 .project-container > div > img {
   width: 300px;
   border-radius: 20px;
-  border-radius: 20px;
-  box-shadow: 6px 6px 14px rgb(85, 85, 85);
+  /* box-shadow: 6px 6px 14px rgb(85, 85, 85); */
+
+  box-shadow: 0 0 10px rgba(0, 207, 255, 1), 0 0 20px rgb(238, 255, 0),
+    0 0 30px rgb(255, 0, 247);
   transition: 1s;
   overflow: hidden;
   cursor: pointer;
-  transform-origin: center;
+  transform-origin: top;
+  position: relative;
+}
+
+.project-container > div > div {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: white;
+  margin: 20px;
+  left: -20px;
+  top: -20px;
+  z-index: -1;
+  border-radius: 20px;
+  border: 2px solid #e11d74;
+  box-sizing: border-box;
 }
 
 .project-container > div {
   width: 300px;
   height: auto;
   margin: 20px;
+  position: relative;
 }
 
 .project-container > div:hover img {
   box-shadow: none;
-  transform: rotatey(180deg);
+  transform: rotatex(180deg);
 }
 
 /* Resume button */
