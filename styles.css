@@ -230,6 +230,8 @@ h3 {
 
   box-shadow: 0 0 10px rgba(0, 207, 255, 1), 0 0 20px rgb(238, 255, 0),
     0 0 30px rgb(255, 0, 247);
+  box-sizing: border-box;
+  border: 2px solid white;
   transition: 1s;
   overflow: hidden;
   cursor: pointer;
@@ -250,6 +252,11 @@ h3 {
   border-radius: 20px;
   border: 2px solid #e11d74;
   box-sizing: border-box;
+  padding: 10px;
+}
+
+.project-container > div > div > h6 {
+  color: #e11d74;
 }
 
 .project-container > div {
