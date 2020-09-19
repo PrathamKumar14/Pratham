@@ -220,22 +220,29 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  perspective: 900px;
 }
 
 .project-container > div > img {
   width: 300px;
   border-radius: 20px;
-  box-shadow: 4px 4px 10px rgb(85, 85, 85);
-  margin: 20px;
   border-radius: 20px;
   box-shadow: 6px 6px 14px rgb(85, 85, 85);
-  transition: 0.5s;
+  transition: 1s;
   overflow: hidden;
   cursor: pointer;
+  transform-origin: center;
 }
 
-.project-container > div > img:hover {
+.project-container > div {
+  width: 300px;
+  height: auto;
+  margin: 20px;
+}
+
+.project-container > div:hover img {
   box-shadow: none;
+  transform: rotatey(180deg);
 }
 
 /* Resume button */
