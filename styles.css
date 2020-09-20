@@ -275,7 +275,7 @@ h3 {
 
 .project-container > div:hover img {
   box-shadow: none;
-  transform: rotatex(120deg);
+  transform: translatey(-170px);
 }
 
 /* Resume button */
