@@ -224,7 +224,7 @@ h3 {
 }
 
 .project-container > div > img {
-  width: 300px;
+  max-width: 400px;
   border-radius: 20px;
   /* box-shadow: 6px 6px 14px rgb(85, 85, 85); */
 
@@ -234,6 +234,8 @@ h3 {
   border: 2px solid white;
   transition: 1s;
   transform-origin: top;
+  position: relative;
+  z-index: 1;
 }
 
 .project-container > div > div {
@@ -244,7 +246,6 @@ h3 {
   margin: 20px;
   left: -20px;
   top: -22px;
-  z-index: -1;
   border-radius: 20px;
   border: 2px solid #e11d74;
   box-sizing: border-box;
@@ -267,7 +268,7 @@ h3 {
 }
 
 .project-container > div {
-  width: 300px;
+  max-width: 400px;
   height: auto;
   margin: 20px;
   position: relative;
@@ -275,7 +276,25 @@ h3 {
 
 .project-container > div:hover img {
   box-shadow: none;
-  transform: translatey(-170px);
+  transform: translatey(-226px);
+}
+
+.project-container > div > div > a {
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+  text-decoration: none;
+}
+
+.link {
+  font-size: 36px;
+  bottom: 14px !important;
+  right: 0 !important;
+}
+
+.project-link {
+  color: #e11d74 !important;
+  text-shadow: none !important;
 }
 
 /* Resume button */
