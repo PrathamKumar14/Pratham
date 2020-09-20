@@ -233,10 +233,7 @@ h3 {
   box-sizing: border-box;
   border: 2px solid white;
   transition: 1s;
-  overflow: hidden;
-  cursor: pointer;
   transform-origin: top;
-  position: relative;
 }
 
 .project-container > div > div {
@@ -244,19 +241,29 @@ h3 {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: white;
   margin: 20px;
   left: -20px;
-  top: -20px;
+  top: -22px;
   z-index: -1;
   border-radius: 20px;
   border: 2px solid #e11d74;
   box-sizing: border-box;
   padding: 10px;
+  padding-top: 0;
+}
+
+.project-heading {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 22px !important;
 }
 
 .project-container > div > div > h6 {
+  font-size: 16px;
   color: #e11d74;
+  margin: 0;
+  font-family: "poppins";
+  text-align: justify;
 }
 
 .project-container > div {
@@ -268,7 +275,7 @@ h3 {
 
 .project-container > div:hover img {
   box-shadow: none;
-  transform: rotatex(180deg);
+  transform: rotatex(120deg);
 }
 
 /* Resume button */
