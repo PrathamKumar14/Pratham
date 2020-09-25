@@ -606,6 +606,10 @@ h3 {
   .project-container > div {
     width: 300px;
   }
+
+  .project-container > div:hover img {
+    transform: translatey(-170px);
+  }
 }
 
 @media (min-width: 1024px) {
