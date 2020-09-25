@@ -598,6 +598,14 @@ h3 {
   .projects {
     margin-top: 50px;
   }
+
+  .project-container > div > img {
+    width: 300px;
+  }
+
+  .project-container > div {
+    width: 300px;
+  }
 }
 
 @media (min-width: 1024px) {
