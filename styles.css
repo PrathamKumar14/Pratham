@@ -62,7 +62,7 @@ h3 {
   box-sizing: border-box;
   padding: 5px;
   height: 26px;
-  width: 54px;
+  width: 52px;
   border-radius: 50px;
   position: absolute;
   top: 10px;
@@ -93,7 +93,7 @@ h3 {
 }
 
 .toggler:checked + .label .ball {
-  transform: translateX(27px);
+  transform: translateX(25px);
 }
 
 .wrapper {
