@@ -610,6 +610,19 @@ h3 {
   .project-container > div:hover img {
     transform: translatey(-170px);
   }
+
+  .project-container > div > div > h6 {
+    font-size: 14px;
+    color: #e11d74;
+    margin: 0;
+    font-family: "poppins";
+    text-align: justify;
+  }
+
+  .project-container > div > div > a,
+  .link {
+    bottom: 0 !important;
+  }
 }
 
 @media (min-width: 1024px) {
