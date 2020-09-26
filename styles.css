@@ -297,6 +297,26 @@ h3 {
   text-shadow: none !important;
 }
 
+/* TIMELINE */
+
+.timeline-heading {
+  margin-top: 70px;
+  font-size: 44px;
+  color: #e11d74;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.star {
+  font-size: 32px;
+}
+
+.timeline-content {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "courier prime";
+}
+
 /* Resume button */
 
 .nav-container {
@@ -613,10 +633,6 @@ h3 {
 
   .project-container > div > div > h6 {
     font-size: 14px;
-    color: #e11d74;
-    margin: 0;
-    font-family: "poppins";
-    text-align: justify;
   }
 
   .project-container > div > div > a,
