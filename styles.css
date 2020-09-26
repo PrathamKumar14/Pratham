@@ -317,6 +317,36 @@ h3 {
   font-family: "courier prime";
 }
 
+.list-wrapper {
+  position: relative;
+}
+
+ul {
+  list-style-type: "\1F31F";
+}
+
+li {
+  font-size: 32px;
+}
+
+.red-line {
+  background: #e11d74;
+  z-index: -1;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 17px;
+}
+
+/* li {
+  list-style-type: none;
+  font-size: 32px;
+} */
+
+/* li:before {
+  content: "\1F537";
+} */
+
 /* Resume button */
 
 .nav-container {
