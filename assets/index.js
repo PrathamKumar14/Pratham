@@ -27,6 +27,20 @@ setInterval(() => {
   }, 0);
 }, 400);
 
+// Expand Timeline
+
+var isOpen = false;
+
+function expandTimeline() {
+  if (!isOpen) {
+    document.getElementById("list-wrapper").style.height = "auto";
+    isOpen = true;
+  } else {
+    document.getElementById("list-wrapper").style.height = "94px";
+    isOpen = false;
+  }
+}
+
 // Resume modal view
 
 // Get the modal

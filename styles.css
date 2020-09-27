@@ -319,6 +319,29 @@ h3 {
 
 .list-wrapper {
   position: relative;
+  overflow: hidden;
+  height: 94px;
+  transition: height 1s ease-in-out;
+}
+
+.expand-btn {
+  border: 2px solid #e11d74;
+  padding: 4px 12px;
+  border-radius: 10px;
+  background: transparent;
+  color: #e11d74;
+  font-size: 18px;
+  font-family: "poppins";
+  letter-spacing: 2px;
+  position: relative;
+  left: 18px;
+  bottom: 12px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.expand-btn:focus {
+  outline: none;
 }
 
 ul {
