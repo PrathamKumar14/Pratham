@@ -34,9 +34,11 @@ var isOpen = false;
 function expandTimeline() {
   if (!isOpen) {
     document.getElementById("list-wrapper").style.height = "auto";
+    document.getElementById("expand-btn").innerHTML = "COLLAPSE";
     isOpen = true;
   } else {
     document.getElementById("list-wrapper").style.height = "94px";
+    document.getElementById("expand-btn").innerHTML = "EXPAND";
     isOpen = false;
   }
 }
