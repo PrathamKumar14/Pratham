@@ -110,7 +110,7 @@ h3 {
   margin: auto;
   display: flex;
   justify-content: space-around;
-  padding-top: 60px;
+  padding-top: 20px;
 }
 
 .intro {
@@ -339,6 +339,7 @@ h3 {
   bottom: 2px;
   cursor: pointer;
   transition: 0.5s;
+  z-index: 3;
 }
 
 .expand-btn:focus {
@@ -374,13 +375,19 @@ li {
 
 /* Resume button */
 
-.nav-container {
-  position: absolute;
-  top: 10px;
-  left: 10px;
+header {
+  max-width: 1920px;
+  width: 100%;
+  position: relative;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu {
+  top: 10px;
+  left: 10px;
   height: 40px;
   width: 104px;
   box-sizing: border-box;
@@ -515,7 +522,28 @@ li {
 }
 
 /* FOOTER */
-
+footer {
+  max-width: 1920px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 10px;
+  height: 10vh;
+  width: 100%;
+  margin: auto;
+}
+.footer-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  right: 10px;
+  bottom: 0;
+}
+.footer-buttons {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
 .main-btn {
   /*   background: #6985c4; */
   background: #e11d74;
@@ -523,11 +551,11 @@ li {
   height: 60px;
   width: 60px;
   border-radius: 50%;
-  position: fixed;
+  position: absolute;
   box-sizing: border-box;
   border: 2px solid #440047;
   bottom: 10px;
-  right: 10px;
+  right: 0;
   font-family: "Poppins", sans-serif;
   text-align: center;
   z-index: 10;
@@ -547,9 +575,9 @@ li {
 .sub-btns {
   height: 60px;
   width: 60px;
-  position: fixed;
+  position: absolute;
+  right: 0;
   bottom: 10px;
-  right: 10px;
 }
 
 .sub-btns > div {
@@ -704,5 +732,19 @@ li {
 
   .heading {
     margin-top: 0;
+  }
+}
+
+@media (min-width: 1920px) {
+  .wrapper {
+    margin: auto;
+  }
+  .nav-container {
+    position: relative;
+    margin: auto;
+  }
+  footer {
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
