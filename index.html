@@ -30,11 +30,26 @@
     <title>Pratham || Front-end Developer</title>
   </head>
   <body>
-    <div class="nav-container">
+    <header>
       <div class="menu">
         <a id="resume-btn" class="resume-btn">RESUME</a>
       </div>
-    </div>
+      <!-- Toggle Button -->
+      <div class="toggler-container">
+        <input class="toggler" id="t" type="checkbox" />
+        <label class="label" for="t">
+          <img
+            class="sun-moon"
+            src="https://img.icons8.com/emoji/48/000000/sun-with-face.png"
+          />
+          <img
+            class="sun-moon"
+            src="https://img.icons8.com/plasticine/50/000000/crescent-moon.png"
+          />
+          <div class="ball"></div>
+        </label>
+      </div>
+    </header>
     <div id="myModal" class="modal">
       <span class="close">&times;</span>
       <img class="modal-content" id="img01" />
@@ -280,81 +295,72 @@
       </div>
     </section>
 
-    <!-- Toggle Button -->
-
-    <input class="toggler" id="t" type="checkbox" />
-    <label class="label" for="t">
-      <img
-        class="sun-moon"
-        src="https://img.icons8.com/emoji/48/000000/sun-with-face.png"
-      />
-      <img
-        class="sun-moon"
-        src="https://img.icons8.com/plasticine/50/000000/crescent-moon.png"
-      />
-      <div class="ball"></div>
-    </label>
-
     <!-- FOOTER -->
-    <div class="main-btn" id="main-btn" onclick="animateButton()">
-      <i class="fa fa-user"></i>
-    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-buttons">
+          <div class="main-btn" id="main-btn" onclick="animateButton()">
+            <i class="fa fa-user"></i>
+          </div>
 
-    <div class="sub-btns">
-      <div class="btn1" id="btn1">
-        <center>
-          <a href="https://www.linkedin.com/in/pratham-abb051175/">
-            <i class="fa fa-linkedin"></i>
-          </a>
-        </center>
+          <div class="sub-btns">
+            <div class="btn1" id="btn1">
+              <center>
+                <a href="https://www.linkedin.com/in/pratham-abb051175/">
+                  <i class="fa fa-linkedin"></i>
+                </a>
+              </center>
+            </div>
+            <div class="btn2" id="btn2">
+              <center>
+                <a href="https://www.instagram.com/rnezhmet_dinov/">
+                  <i class="fa fa-instagram"></i>
+                </a>
+              </center>
+            </div>
+            <div class="btn3" id="btn3">
+              <center>
+                <a href="https://twitter.com/prathkum">
+                  <i class="fa fa-twitter"></i>
+                </a>
+              </center>
+            </div>
+            <div class="btn4" id="btn4">
+              <center>
+                <a href="https://github.com/PrathamKumar14">
+                  <i class="fa fa-github"></i>
+                </a>
+              </center>
+            </div>
+            <div class="touch btn5" id="btn5">
+              <center>
+                <h2>K</h2>
+              </center>
+            </div>
+            <div class="touch btn6" id="btn6">
+              <center>
+                <h2>L</h2>
+              </center>
+            </div>
+            <div class="touch btn7" id="btn7">
+              <center>
+                <h2>A</h2>
+              </center>
+            </div>
+            <div class="touch btn8" id="btn8">
+              <center>
+                <h2>T</h2>
+              </center>
+            </div>
+            <div class="touch btn9" id="btn9">
+              <center>
+                <h4>Let's</h4>
+              </center>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="btn2" id="btn2">
-        <center>
-          <a href="https://www.instagram.com/rnezhmet_dinov/">
-            <i class="fa fa-instagram"></i>
-          </a>
-        </center>
-      </div>
-      <div class="btn3" id="btn3">
-        <center>
-          <a href="https://twitter.com/prathkum">
-            <i class="fa fa-twitter"></i>
-          </a>
-        </center>
-      </div>
-      <div class="btn4" id="btn4">
-        <center>
-          <a href="https://github.com/PrathamKumar14">
-            <i class="fa fa-github"></i>
-          </a>
-        </center>
-      </div>
-      <div class="touch btn5" id="btn5">
-        <center>
-          <h2>K</h2>
-        </center>
-      </div>
-      <div class="touch btn6" id="btn6">
-        <center>
-          <h2>L</h2>
-        </center>
-      </div>
-      <div class="touch btn7" id="btn7">
-        <center>
-          <h2>A</h2>
-        </center>
-      </div>
-      <div class="touch btn8" id="btn8">
-        <center>
-          <h2>T</h2>
-        </center>
-      </div>
-      <div class="touch btn9" id="btn9">
-        <center>
-          <h4>Let's</h4>
-        </center>
-      </div>
-    </div>
+    </footer>
     <script src="assets/index.js"></script>
   </body>
 </html>
