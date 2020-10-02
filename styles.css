@@ -706,3 +706,9 @@ li {
     margin-top: 0;
   }
 }
+
+/* footer */
+
+#path.border {
+  stroke: #000;
+}
