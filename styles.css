@@ -550,6 +550,7 @@ li {
   position: fixed;
   bottom: 10px;
   right: 10px;
+  z-index: 9;
 }
 
 .sub-btns > div {
@@ -709,6 +710,43 @@ li {
 
 /* footer */
 
-path.border {
-  stroke: #000;
+.footer-design {
+  margin-top: 100px;
+  position: relative;
+  /* z-index: -1; */
+  width: 100vw;
+  height: 100px;
+  background: #e11d74;
+  overflow: hidden;
+}
+
+.footer-design > hr {
+  border: none;
+  border-top: 10px dotted black;
+  width: 25%;
+}
+
+.footer-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.codesandbox {
+  width: 36px;
+}
+
+.footer-content {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 6px;
+  font-family: "poppins";
+}
+
+.footer-content > h4 {
+  width: 300px;
+  margin: 0;
+  padding: 0;
 }
