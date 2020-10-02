@@ -1,3 +1,9 @@
+// Handle loader
+
+window.addEventListener("load", function () {
+  document.getElementById("loader-wrapper").style.display = "none";
+});
+
 // Dark and light theme
 
 const toggler = document.getElementById("t");
