@@ -4,6 +4,14 @@
 
 /* LOADER */
 
+#loader-wrapper {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  z-index: 100;
+}
+
 .container {
   position: absolute;
   left: 50%;
@@ -207,6 +215,10 @@ body {
 body.dark {
   background: white;
   color: black;
+}
+
+.overflow {
+  overflow: hidden;
 }
 
 /* Customize scroll bar */
