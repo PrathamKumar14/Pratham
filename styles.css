@@ -915,43 +915,59 @@ li {
 
 /* footer */
 
-.footer-design {
-  margin-top: 100px;
-  position: relative;
-  /* z-index: -1; */
-  width: 100vw;
-  height: 100px;
-  background: #e11d74;
-  overflow: hidden;
+footer {
+  margin-top: 60px;
 }
 
-.footer-design > hr {
-  border: none;
-  border-top: 10px dotted black;
-  width: 25%;
-}
-
-.footer-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.codesandbox {
-  width: 36px;
-}
-
-.footer-content {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: 6px;
+.footer-wrapper {
+  padding: 20px;
+  background-color: #e11d74;
   font-family: "poppins";
 }
 
-.footer-content > h4 {
-  width: 300px;
+.footer-wrapper > hr {
+  border: none;
+  border-top: 4px solid black;
+}
+
+.flex-icons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  top: -36px;
+}
+
+.flex-icons > div {
+  background-color: #e11d74;
+  padding: 10px;
+}
+
+.icons {
+  text-align: center;
+}
+
+.mail-btn {
+  padding: 4px 20px;
+  background: black;
+  color: #e11d74;
+  text-decoration: none;
+  letter-spacing: 2px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  border: 2px solid white;
+  margin-top: 6px;
+  position: relative;
+  top: 8px;
+}
+
+.footer-wrapper > h4 {
+  font-size: 1.2em;
+  text-align: center;
   margin: 0;
   padding: 0;
+}
+
+.icons > a > img {
+  width: 36px;
 }
