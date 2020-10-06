@@ -876,8 +876,10 @@ li {
     margin-bottom: 20px;
   }
 
-  .projects {
-    margin-top: 50px;
+  .projects,
+  .expertise-heading,
+  .timeline-heading {
+    margin-top: 50px !important;
   }
 
   .project-container > div > img {
@@ -900,6 +902,15 @@ li {
   .link {
     bottom: 0 !important;
   }
+
+  .fl-box {
+    text-align: center;
+  }
+
+  .designer,
+  .developer {
+    margin: 0 !important;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -911,6 +922,51 @@ li {
   .heading {
     margin-top: 0;
   }
+}
+
+/* Expertise  */
+
+.expertise-heading {
+  font-size: 44px;
+  color: #e11d74;
+  text-transform: uppercase;
+  text-decoration: underline;
+  margin-top: 100px;
+}
+
+.fl-box {
+  font-family: "Merriweather", serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.fl-box > div > img {
+  width: 250px;
+}
+
+.designer {
+  margin-right: 20px;
+}
+
+.developer {
+  margin-left: 20px;
+}
+
+.expertise-content {
+  max-width: 600px;
+}
+
+.expertise-content > h2 {
+  text-transform: uppercase;
+  color: #e11d74;
+  letter-spacing: 4px;
+  line-height: 32px;
+}
+
+.expertise-content > p {
+  line-height: 22px;
 }
 
 /* footer */
