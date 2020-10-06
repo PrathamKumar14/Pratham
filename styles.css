@@ -908,7 +908,8 @@ li {
   }
 
   .designer,
-  .developer {
+  .developer,
+  .growth {
     margin: 0 !important;
   }
 }
@@ -952,6 +953,10 @@ li {
 
 .developer {
   margin-left: 20px;
+}
+
+.growth {
+  margin-right: 20px;
 }
 
 .expertise-content {
