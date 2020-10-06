@@ -818,6 +818,12 @@ li {
 
 /* Responsive  */
 
+@media (min-width: 792px) {
+  .sm-developer {
+    display: none;
+  }
+}
+
 @media (max-width: 792px) {
   .wrapper {
     margin: 10px 20px 10px 20px;
@@ -905,6 +911,10 @@ li {
 
   .fl-box {
     text-align: center;
+  }
+
+  .lg-developer {
+    display: none;
   }
 
   .designer,
