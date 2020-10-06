@@ -981,7 +981,11 @@ li {
 }
 
 .expertise-content > p {
-  line-height: 22px;
+  line-height: 26px;
+}
+
+.pin {
+  font-size: 1.8em;
 }
 
 /* footer */
