@@ -435,10 +435,9 @@ h3 {
 .project-container > div > img {
   max-width: 400px;
   border-radius: 20px;
-  /* box-shadow: 6px 6px 14px rgb(85, 85, 85); */
-
-  box-shadow: 0 0 10px rgba(0, 207, 255, 1), 0 0 20px rgb(238, 255, 0),
-    0 0 30px rgb(255, 0, 247);
+  box-shadow: 6px 6px 14px rgb(141, 141, 141);
+  /* box-shadow: 0 0 10px rgba(0, 207, 255, 1), 0 0 20px rgb(238, 255, 0),
+    0 0 30px rgb(255, 0, 247); */
   box-sizing: border-box;
   border: 2px solid white;
   transition: 1s;
