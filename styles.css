@@ -528,8 +528,8 @@ h3 {
 .list-wrapper {
   position: relative;
   overflow: hidden;
-  height: 94px;
-  transition: height 1s ease-in-out;
+  max-height: 94px;
+  transition: max-height 2s;
 }
 
 .expand-btn {
