@@ -1,0 +1,51 @@
+.not-found {
+  text-align: center;
+  color: #e11d74;
+  font-style: normal;
+  font-family: "poppins";
+  margin-top: 30px;
+  -webkit-text-stroke: 2px black;
+}
+
+.menu {
+  border: 2px solid black;
+}
+
+.home-btn-container {
+  z-index: 10000;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 200px;
+  cursor: pointer;
+}
+
+.home-btn {
+  padding: 4px 24px !important;
+  background-color: white !important;
+  border: 2px solid black;
+}
+
+.container {
+  top: 60%;
+}
+
+#loader-wrapper {
+  background-color: white !important;
+}
+
+.bowl {
+  border: 2px solid black;
+}
+
+.bowl:after {
+  border: 2px solid black;
+  background: white;
+}
+
+.water {
+  background: linear-gradient(to bottom, white 0% 50%, #e11d74 50% 100%);
+}
+
+.water:after {
+  background: #831144;
+}
