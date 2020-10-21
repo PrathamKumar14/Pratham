@@ -1,0 +1,142 @@
+body {
+  background-color: #010101;
+  color: white;
+}
+
+.wrapper {
+  max-width: 1500px;
+  margin-left: 40px;
+  font-family: "Lora", serif;
+}
+
+@media only screen and (max-width: 747px) {
+  .wrapper {
+    margin-left: 0px;
+  }
+}
+
+.contact-me {
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+
+.contact-me > a {
+  margin: 5px;
+  font-size: 2em;
+  color: #e11d74;
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  color: #e11d74;
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 467px) {
+  .heading {
+    font-size: 3em;
+  }
+}
+
+.name {
+  margin-bottom: 0;
+  -webkit-text-stroke: 1px white;
+  letter-spacing: 4px;
+}
+
+hr {
+  border: none;
+  border-top: 10px dotted #e11d74;
+  width: 30%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.intro {
+  margin: 0;
+  font-size: 1.1em;
+  line-height: 24px;
+}
+
+.list-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.list-wrapper > ul {
+  list-style-type: "\1F31F";
+}
+
+.list-wrapper > ul > li {
+  font-size: 1.5em;
+}
+
+.red-line {
+  background: #e11d74;
+  z-index: -1;
+  width: 2px;
+  height: 100%;
+  position: absolute;
+  left: 23px;
+  top: 30px;
+}
+
+.li-heading {
+  font-family: "poppins";
+  color: #e11d74;
+  font-size: 1.4em;
+  text-decoration: underline;
+}
+
+h3,
+h4 {
+  margin: 2px;
+}
+
+h3 {
+  font-size: 0.8em;
+  font-family: "Libre Franklin", sans-serif;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 0.65em;
+}
+
+.education-list {
+  list-style-type: "\2734";
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 40px;
+}
+
+.btn-container {
+  padding: 16px 8px;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 207, 255, 1) 0%,
+    rgb(238, 255, 0) 33.33%,
+    rgb(255, 0, 247) 66.66%,
+    rgba(0, 207, 255, 1) 100%
+  );
+  display: inline-block;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.download-btn {
+  padding: 10px 20px;
+  color: white;
+  background: #010101;
+  text-align: right;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 1.2em;
+  letter-spacing: 2px;
+  font-family: "poppins";
+}
