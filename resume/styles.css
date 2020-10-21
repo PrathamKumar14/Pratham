@@ -62,6 +62,7 @@ hr {
 
 .list-wrapper {
   position: relative;
+  right: 20px;
   overflow: hidden;
 }
 
