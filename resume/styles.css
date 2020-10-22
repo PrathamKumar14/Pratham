@@ -11,7 +11,7 @@ body {
 
 @media only screen and (max-width: 747px) {
   .wrapper {
-    margin-left: 0px;
+    margin: auto;
   }
 }
 
@@ -25,10 +25,12 @@ body {
   margin: 5px;
   font-size: 2em;
   color: #e11d74;
+  text-shadow: 2px 2px 4px #7d7d7d;
 }
 
 .heading {
   font-family: "Poppins", sans-serif;
+  font-family: "Notable", sans-serif;
   color: #e11d74;
   font-size: 4em;
   text-transform: uppercase;
@@ -41,7 +43,8 @@ body {
 }
 
 .name {
-  margin-bottom: 0;
+  margin-bottom: 40px;
+  margin-top: 60px;
   -webkit-text-stroke: 1px black;
   letter-spacing: 4px;
 }
