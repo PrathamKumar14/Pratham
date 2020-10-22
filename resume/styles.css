@@ -1,6 +1,6 @@
 body {
-  background-color: #010101;
-  color: white;
+  background-color: #fff;
+  color: #000;
 }
 
 .wrapper {
@@ -42,7 +42,7 @@ body {
 
 .name {
   margin-bottom: 0;
-  -webkit-text-stroke: 1px white;
+  -webkit-text-stroke: 1px black;
   letter-spacing: 4px;
 }
 
@@ -108,6 +108,12 @@ h4 {
 
 .education-list {
   list-style-type: "\2734";
+  padding-left: 20px;
+}
+
+.education-list > li > h4 > a {
+  color: #e11d74;
+  font-size: 1.1em;
 }
 
 .btn-wrapper {
@@ -131,8 +137,8 @@ h4 {
 
 .download-btn {
   padding: 10px 20px;
-  color: white;
-  background: #010101;
+  color: black;
+  background: white;
   text-align: right;
   text-decoration: none;
   text-transform: uppercase;
