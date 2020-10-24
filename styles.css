@@ -1046,6 +1046,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: -40px;
 }
 
 .footer-links-wrapper > div > h4 {
