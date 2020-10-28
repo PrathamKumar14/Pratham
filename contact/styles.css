@@ -1,0 +1,56 @@
+body {
+  background: linear-gradient(to right, #3494e6, #ec6ead);
+  font-family: "Roboto", sans-serif;
+}
+
+.resume-website-btn {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+
+.resume-website-btn > a {
+  position: relative;
+  color: black;
+  text-decoration: none;
+}
+
+.contact-wrapper {
+  max-width: 500px;
+  text-align: center;
+  margin: auto;
+}
+
+.heading {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.my-img {
+  width: 250px;
+  filter: drop-shadow(6px 6px 4px rgb(87, 87, 87));
+}
+
+.contact-wrapper > a {
+  display: inline-block;
+  font-family: "Questrial", sans-serif;
+  width: 70%;
+  padding: 8px 0 8px;
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 16px;
+  font-size: 1.2rem;
+  box-shadow: 6px 6px black;
+  transition: 0.5s;
+}
+
+.contact-wrapper > a:hover {
+  background-color: rgba(255, 255, 255, 0.253);
+  box-shadow: none;
+}
+
+.fa {
+  margin-right: 10px;
+}
