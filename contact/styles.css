@@ -1,12 +1,23 @@
 body {
   background: linear-gradient(to right, #3494e6, #ec6ead);
   font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+#myVideo {
+  position: absolute;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  opacity: 0.4;
+  object-fit: cover;
 }
 
 .resume-website-btn {
   position: absolute;
   display: flex;
   flex-direction: column;
+  left: 2px;
 }
 
 .resume-website-btn > a {
@@ -24,11 +35,15 @@ body {
 .heading {
   font-size: 3rem;
   letter-spacing: 2px;
+  margin-bottom: 0;
 }
 
 .my-img {
-  width: 250px;
-  filter: drop-shadow(6px 6px 4px rgb(87, 87, 87));
+  width: 200px;
+  border-radius: 50%;
+  border: 5px solid black;
+  margin-top: 60px;
+  /* filter: drop-shadow(6px 6px 4px rgb(87, 87, 87)); */
 }
 
 .contact-wrapper > a {
