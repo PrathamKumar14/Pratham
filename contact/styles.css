@@ -1,16 +1,9 @@
 body {
-  background: linear-gradient(to right, #3494e6, #ec6ead);
+  /* background: linear-gradient(to right, #3494e6, #ec6ead); */
+  background-color: white;
   font-family: "Roboto", sans-serif;
   margin: 0;
-}
-
-#myVideo {
-  position: absolute;
-  z-index: -1;
-  min-width: 100%;
-  min-height: 100%;
-  opacity: 0.4;
-  object-fit: cover;
+  overflow-x: hidden;
 }
 
 .resume-website-btn {
