@@ -1025,17 +1025,18 @@ footer {
 }
 
 .mail-btn {
-  padding: 4px 20px;
-  background: black;
+  display: block;
+  padding: 2px 20px;
+  background: white;
   color: #e11d74;
   text-decoration: none;
   letter-spacing: 2px;
   border-radius: 20px;
   box-sizing: border-box;
-  border: 2px solid white;
-  margin-top: 6px;
+  border: 2px solid black;
+  margin-top: 2px;
   position: relative;
-  top: 8px;
+  bottom: 14px;
 }
 
 .icons > a > img {
