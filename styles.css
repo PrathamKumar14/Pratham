@@ -434,12 +434,12 @@ h3 {
 
 .project-container > div > img {
   max-width: 400px;
-  border-radius: 20px;
-  box-shadow: 6px 6px 14px rgb(141, 141, 141);
+  border-radius: 10px;
+  /* box-shadow: 6px 6px 14px rgb(141, 141, 141); */
   /* box-shadow: 0 0 10px rgba(0, 207, 255, 1), 0 0 20px rgb(238, 255, 0),
     0 0 30px rgb(255, 0, 247); */
   box-sizing: border-box;
-  border: 2px solid white;
+  border: 2px solid #e11d74;
   transition: 1s;
   transform-origin: top;
   position: relative;
@@ -454,8 +454,8 @@ h3 {
   margin: 20px;
   left: -20px;
   top: -22px;
-  border-radius: 20px;
-  border: 2px solid #e11d74;
+  border-radius: 10px;
+  /* border: 2px solid #e11d74; */
   box-sizing: border-box;
   padding: 10px;
   padding-top: 0;
@@ -475,6 +475,14 @@ h3 {
   text-align: justify;
 }
 
+.project-container > div > div > h6:nth-of-type(2) {
+  color: white;
+}
+
+.project-desc-text-black {
+  color: black !important;
+}
+
 .project-container > div {
   max-width: 400px;
   height: auto;
@@ -484,6 +492,7 @@ h3 {
 
 .project-container > div:hover img {
   box-shadow: none;
+  opacity: 0.4;
   transform: translatey(-226px);
 }
 
