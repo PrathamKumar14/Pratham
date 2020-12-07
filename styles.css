@@ -1000,6 +1000,23 @@ li {
   font-size: 1.8em;
 }
 
+.contact-form-details {
+  margin-top: 80px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  font-family: "Merriweather", serif;
+}
+
+.contact-form-link {
+  margin: 8px 0 0 0;
+  font-family: "Merriweather", serif;
+}
+
+.contact-form-link > a {
+  text-decoration: none;
+  color: #e11d74;
+}
+
 /* footer */
 
 footer {
