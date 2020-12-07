@@ -1017,6 +1017,16 @@ li {
   color: #e11d74;
 }
 
+iframe {
+  display: block;
+  margin: auto;
+  width: 310px;
+  height: 434px;
+  border-radius: 10px;
+  margin-top: 40px;
+  box-shadow: 0 0 0 2px #12c2e9, 0 0 0 4px #f64f59;
+}
+
 /* footer */
 
 footer {
