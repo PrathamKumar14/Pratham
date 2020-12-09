@@ -1035,6 +1035,7 @@ footer {
 
 .footer-wrapper {
   padding: 20px;
+  padding-top: 40px;
   background-color: #e11d74;
 }
 
@@ -1087,7 +1088,7 @@ footer {
 }
 
 .footer-links-wrapper > div > h4 {
-  font-size: 1.2em;
+  font-size: 1em;
   text-align: center;
   margin: 0;
   padding: 0;
@@ -1104,8 +1105,9 @@ footer {
 
 .section-links > a {
   font-family: "poppins";
+  /* letter-spacing: 1px; */
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2rem;
   color: black;
   margin: 10px;
 }
