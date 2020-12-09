@@ -1012,9 +1012,8 @@ li {
   font-family: "Merriweather", serif;
 }
 
-.contact-form-link > a {
-  text-decoration: none;
-  color: #e11d74;
+.contact-form-link > span {
+  font-size: 2rem;
 }
 
 iframe {
@@ -1024,7 +1023,7 @@ iframe {
   height: 434px;
   border-radius: 10px;
   margin-top: 40px;
-  box-shadow: 0 0 0 2px #12c2e9, 0 0 0 4px #f64f59;
+  box-shadow: 0 0 0 4px #12c2e9, 0 0 0 8px #f64f59;
 }
 
 /* footer */
