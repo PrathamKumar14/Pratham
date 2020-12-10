@@ -898,6 +898,11 @@ li {
   .expertise-heading,
   .timeline-heading {
     margin-top: 50px !important;
+    font-size: 32px !important;
+  }
+
+  .heading {
+    font-size: 32px !important;
   }
 
   .project-container > div > img {
