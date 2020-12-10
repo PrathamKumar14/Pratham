@@ -1012,6 +1012,17 @@ li {
   font-family: "Merriweather", serif;
 }
 
+.freelance {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 2.7em;
+  font-style: italic;
+  background: -webkit-linear-gradient(left, #6fe5ff, #ab00ff, #ff000f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 2px black;
+}
+
 .contact-form-link {
   margin: 16px 0 0 0;
   font-family: "Merriweather", serif;
