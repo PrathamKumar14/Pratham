@@ -4,6 +4,7 @@ This is my personal website showcasing my skills, projects, Education, timeline 
 Feel free to check 
 
 Website https://pratham.codes <br />
+Twitter https://twitter.com/Prathkum <br />
 Resume https://resume.pratham.codes <br />
 Contact https://pratham.codes/contact <br />
 
